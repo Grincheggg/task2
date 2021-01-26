@@ -7,19 +7,19 @@ public class rainbow {
 
     public static void color(){
         String red = "красный";
-         String orange = "оранжевый";
-         String yellow = "желтый";
-         String green = "зеленый";
-         String blue = "голубой";
-         String indigo = "синий";
-         String violet = "фиолетовый";
-         String red1 = "красно-";
-         String orange1 = "оранжево-";
-         String yellow1 = "желто-";
-         String green1 = "зелено-";
-         String blue1 = "голубо-";
-         String indigo1 = "сине-";
-         String violet1 = "фиолетово-";
+         final String orange = "оранжевый";
+        final String yellow = "желтый";
+        final String green = "зеленый";
+        final String blue = "голубой";
+        final String indigo = "синий";
+        final String violet = "фиолетовый";
+        final String red1 = "красно-";
+        final String orange1 = "оранжево-";
+        final  String yellow1 = "желто-";
+        final  String green1 = "зелено-";
+        final String blue1 = "голубо-";
+        final String indigo1 = "сине-";
+        final String violet1 = "фиолетово-";
         Scanner input = new Scanner (System.in);
         System.out.println("Введите колличетсво желаемых цветов для отображения 1 или 2:");
         int value =input.nextInt();
